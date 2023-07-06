@@ -3,6 +3,7 @@
 
 int n, i;
 int randomNumber() {
+    srand( time( NULL ) );
     n = rand() % 100;
 }
 
